@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E3F2FD;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1E3A8A;
+}
+
+p {
+  font-size: 1rem;
+  color: #4B5563;
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #1E3A8A;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #4B5563;
+  box-sizing: border-box;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #1E3A8A;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #1D4ED8;
+}
+
+.privacy-text {
+  font-size: 1rem;
+  color: #4B5563;
+}
+
+.notification {
+  background-color: #D1FAE5;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #064E3B;
+  font-size: 1rem;
+  display: none;
+}

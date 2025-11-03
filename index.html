@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anonymous Help Request</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Anonymous Help Request</h1>
+    <p>This ensures complete anonymity and secures your submission.</p>
+
+    <form id="helpRequestForm">
+      <label for="requestInput" class="form-label">Describe your request.</label>
+       <textarea id="requestInput" class="input-field" placeholder="Enter your answer"></textarea>
+       
+
+      <p class="privacy-text">No identity will be revealed.</p>
+
+      <button type="button" class="submit-btn" onclick="submitForm()">Submit Request</button>
+    </form>
+
+    <div class="notification" id="notification">
+      Your request has been submitted. You will be hearing from a professional within 48 hours.
+    </div>
+  </div>
+
+  
+
+</body>
+</html>
